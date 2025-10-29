@@ -1,0 +1,9 @@
+Tentang: Aplikasi ini dirancang untuk membantu melatih daya ingat, memperbaiki konsentrasi, dan meningkatkan kemampuan otak dalam mengingat informasi, terutama bagi pengguna yang merasa daya ingatnya menurun.
+
+Tema: Mengusung tampilan modern, interaktif, menarik, mudah digunakan, dan tidak berkesan norak. Kombinasi warna hitam dengan aksen neon memberikan kesan futuristik dan nyaman di mata.
+
+Fitur:
+- Pengingat: Pengguna akan diberikan kalimat-kalimat tertentu yang harus diingat. Setelah itu, aplikasi akan menampilkan pertanyaan seputar konteks dari kalimat yang telah disampaikan, baik melalui teks maupun suara dari sistem.
+- Menyusun: Pengguna diminta untuk menyusun kata-kata atau kalimat berdasarkan konteks tertentu yang telah dipelajari sebelumnya, guna melatih ingatan secara aktif.
+- Latihan Memori Visual: Pengguna diperlihatkan gambar secara singkat, kemudian diberikan pertanyaan yang berkaitan dengan detail isi gambar tersebut untuk melatih memori visual.
+- Mode Cerita Interaktif: Pengguna dapat membaca atau mendengarkan cerita singkat. Selanjutnya, akan diberikan pertanyaan terkait isi cerita tersebut untuk melatih pemahaman, perhatian, dan daya ingat pengguna.

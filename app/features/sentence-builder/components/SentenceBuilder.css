@@ -1,0 +1,48 @@
+/* app/features/sentence-builder/components/SentenceBuilder.css */
+
+.neon-border {
+  border: 2px solid;
+  border-image: linear-gradient(to right, #00ffff, #ff00ff, #ffff00) 1;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7), 0 0 20px rgba(255, 0, 255, 0.7), 0 0 25px rgba(255, 255, 0, 0.7);
+}
+
+.neon-text {
+  text-shadow: 0 0 7px #00ffff, 0 0 10px #ff00ff, 0 0 15px #ffff00;
+}
+
+.neon-button {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.neon-button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(60deg, #00ffff, #ff00ff, #ffff00, #00ffff);
+  background-size: 300% 300%;
+  animation: neon-glow 5s linear infinite;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.neon-button:hover::before {
+  opacity: 1;
+}
+
+@keyframes neon-glow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
